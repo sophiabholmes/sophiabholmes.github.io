@@ -10,7 +10,7 @@ body {
 
 path {
   fill: transparent;
-  /* fill: red; */
+  fill: red;
 }
 
 text {
