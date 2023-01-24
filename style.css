@@ -24,7 +24,7 @@ svg {
 }
 
 .main-container {
-  background: #425168;
+  background: pink;
   background: linear-gradient(#425168, #736e74);
   height: 100vh;
   margin: 0;
