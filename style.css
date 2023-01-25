@@ -175,3 +175,61 @@ svg {
   content: "";
   transform: rotate(-45deg);
 }
+
+@media only screen and (max-width: 1000px) {
+  .main-container {
+    overflow: scroll;
+  }
+  .contact_container {
+    display: inline-block;
+    position: relative;
+    width: 100vw;
+    top: auto;
+    right: auto;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    width: 220px;
+    margin-left: calc(50vw - 110px);
+  }
+
+  .header {
+    display: inline-block;
+    position: relative;
+    width: 330px;
+    top: auto;
+    margin-top: -80px;
+    margin-bottom: 120px;
+    transform: rotate(0);
+  }
+
+  .music_videos_container {
+    display: inline-block;
+    position: relative;
+    right: auto;
+    width: 100vw;
+    top: auto;
+    bottom: auto;
+    margin-bottom: 120px;
+    width: 300px;
+    margin-left: calc(50vw - 150px);
+  }
+
+  .short_films_container {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    left: auto;
+    width: 300px;
+    top: auto;
+    margin-bottom: 50px;
+    margin-left: calc(50vw - 150px);
+  }
+  .contact_info {
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    overflow: scroll;
+  }
+
+}
