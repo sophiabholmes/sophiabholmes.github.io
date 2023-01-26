@@ -179,6 +179,7 @@ svg {
 @media only screen and (max-width: 1000px) {
   .main-container {
     overflow: scroll;
+    overflow-x: hidden;
   }
   .contact_container {
     display: inline-block;
@@ -199,7 +200,7 @@ svg {
     top: auto;
     margin-top: -80px;
     margin-bottom: 120px;
-    transform: rotate(0);
+    transform: rotate(-10deg);
   }
 
   .music_videos_container {
@@ -221,7 +222,7 @@ svg {
     left: auto;
     width: 300px;
     top: auto;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     margin-left: calc(50vw - 150px);
   }
   .contact_info {
