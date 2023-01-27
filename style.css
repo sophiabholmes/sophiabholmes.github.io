@@ -181,6 +181,10 @@ svg {
     overflow: scroll;
     overflow-x: hidden;
   }
+
+  .no-scroll {
+    overflow: hidden;
+  }
   .contact_container {
     display: inline-block;
     position: relative;
@@ -200,7 +204,7 @@ svg {
     top: auto;
     margin-top: -80px;
     margin-bottom: 120px;
-    transform: rotate(-10deg);
+    transform: rotate(10deg);
   }
 
   .music_videos_container {
@@ -231,6 +235,7 @@ svg {
     left: 0;
     top: 0;
     overflow: scroll;
+    padding: 80px 30px 80px 30px;
   }
 
 }

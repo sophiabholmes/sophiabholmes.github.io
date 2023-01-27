@@ -35,10 +35,12 @@ document.addEventListener('DOMContentLoaded', function() {
    var contactButton = document.getElementById('contact_button');
    contactButton.addEventListener('click', function(){
      document.getElementById('contact_info').classList.add('visible');
+     document.getElementById('main_container').classList.add('no-scroll');
    });
 
    var hide = document.getElementById('hide');
    hide.addEventListener('click',function() {
      document.getElementById('contact_info').classList.remove('visible');
+     document.getElementById('main_container').classList.remove('no-scroll');
    })
 });
