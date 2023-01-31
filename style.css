@@ -23,9 +23,26 @@ svg {
   overflow: visible;
 }
 
+a, a:visited {
+  color: #fed57d;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
 .main-container {
-  background: pink;
   background: linear-gradient(#425168, #736e74);
+  background-image: url(./images/background_sky.jpg);
+  background-size: cover;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -89,7 +106,7 @@ svg {
   height: 250px;
   position: absolute;
   left: 200px;
-  top: 100px;
+  top: 170px;
 }
 
 .short_films_container svg {
@@ -100,7 +117,7 @@ svg {
 
 .item {
   cursor: pointer;
-  width: 110px;
+  width: 140px;
   height: auto;
   position: absolute;
 }
@@ -125,6 +142,13 @@ svg {
   bottom: 100px;
 }
 
+.music_videos_container svg {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  transform: rotate(-80deg);
+}
+
 .contact_info {
   background: linear-gradient(#736e74, #425168);
   background: #425168;
@@ -139,8 +163,14 @@ svg {
   outline: 1px solid #fed57d;
   display: none;
   line-height: 1.7em;
+  overflow: scroll;
   /* -webkit-filter: drop-shadow(2px 2px 5px thistle);
   filter: drop-shadow(2px 2px 5px thistle); */
+}
+
+.contact_info img {
+  outline: 1px solid #fed57d;
+  width: 200px;
 }
 
 .visible {
@@ -214,9 +244,9 @@ svg {
     width: 100vw;
     top: auto;
     bottom: auto;
-    margin-bottom: 120px;
+    margin-bottom: 220px;
     width: 300px;
-    margin-left: calc(50vw - 150px);
+    margin-left: calc(50vw - 170px);
   }
 
   .short_films_container {
@@ -227,7 +257,7 @@ svg {
     width: 300px;
     top: auto;
     margin-bottom: 200px;
-    margin-left: calc(50vw - 150px);
+    margin-left: calc(50vw - 120px);
   }
   .contact_info {
     width: 100vw;

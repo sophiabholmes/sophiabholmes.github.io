@@ -1,27 +1,27 @@
 var shortFilms = [{
     title: "1",
-    image: "1.png",
+    image: "big_crush.png",
     positionRight: 220,
     positionBottom: 120,
     tilt: -20
   }, {
     title: "2",
-    image: "2.png",
-    positionRight: 100,
-    positionBottom: 60,
+    image: "shayna.png",
+    positionRight: 40,
+    positionBottom: 30,
     tilt: 5
   }, {
     title: "3",
     image: "3.png",
-    positionRight: 60,
-    positionBottom: 170,
+    positionRight: 90,
+    positionBottom: 200,
     tilt: 15
   }];
 
 var musicVideos = [{
     title: "1",
     image: "1.png",
-    positionLeft: 150,
+    positionLeft: 170,
     positionTop: 80,
     tilt: 10
   }, {
@@ -34,6 +34,6 @@ var musicVideos = [{
     title: "3",
     image: "3.png",
     positionLeft: 100,
-    positionTop: -30,
+    positionTop: -50,
     tilt: -10
   }];
