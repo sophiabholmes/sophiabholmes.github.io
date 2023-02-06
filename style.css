@@ -1,6 +1,6 @@
 @font-face{
 font-family: FT88-School;
-src: url('FT88-School.woff'), url('FT88-School.woff') format('woff');}
+src: url('FT88-Italic.woff'), url('FT88-Italic.woff') format('woff');}
 
 body {
   margin: 0;
@@ -41,7 +41,6 @@ body {
 
 .main-container {
   background: linear-gradient(#425168, #736e74);
-  background-image: url(./images/background_sky.jpg);
   background-size: cover;
   height: 100vh;
   margin: 0;
@@ -120,12 +119,15 @@ body {
   width: 140px;
   height: auto;
   position: absolute;
+  -webkit-filter: drop-shadow(2px 2px 4px thistle);
+  filter: drop-shadow(2px 2px 4px thistle);
+  transition: .2s;
 }
 
 .item:hover {
   cursor: pointer
-  -webkit-filter: drop-shadow(2px 2px 5px thistle);
-  filter: drop-shadow(2px 2px 5px thistle);
+  -webkit-filter: drop-shadow(2px 2px 6px thistle);
+  filter: drop-shadow(2px 2px 6px thistle);
 }
 
 
