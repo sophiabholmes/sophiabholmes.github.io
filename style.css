@@ -1,11 +1,15 @@
 @font-face{
 font-family: FT88-School;
+src: url('FT88-School.woff'), url('FT88-School.woff') format('woff');}
+
+@font-face{
+font-family: FT88-Italic;
 src: url('FT88-Italic.woff'), url('FT88-Italic.woff') format('woff');}
 
 body {
   margin: 0;
   color: #fed57d;
-  font-family: "FT88-School";
+  font-family: "FT88-Italic";
 }
 
 path {
@@ -60,6 +64,7 @@ body {
   width: 300px;
   font-size: 25px;
   transform: rotate(-5deg);
+  font-family: "FT88-School";
 }
 .contact {
   /* outline: 1px solid green; */
@@ -168,6 +173,10 @@ body {
   overflow: scroll;
   /* -webkit-filter: drop-shadow(2px 2px 5px thistle);
   filter: drop-shadow(2px 2px 5px thistle); */
+}
+
+.bio {
+  font-family: helvetica;
 }
 
 .contact_info img {
