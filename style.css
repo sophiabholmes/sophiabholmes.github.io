@@ -217,6 +217,8 @@ body {
   transform: rotate(-45deg);
 }
 .pop_up_vid {
+  left: 0;
+  top: 0;
   box-sizing: border-box;
   padding-left: calc(50vw - 320px);
   padding-top: 100px;
@@ -230,7 +232,7 @@ body {
 .remove {
   position: fixed;
   right: 100px;
-  top: 100px;
+  top: 50px;
   width: 20px;
   height: 20px;
 }
@@ -315,6 +317,19 @@ body {
     top: 0;
     overflow: scroll;
     padding: 80px 30px 160px 30px;
+  }
+
+  .pop_up_vid {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .pop_up_vid iframe {
+    width: calc(100vw - 30px);
+  }
+
+  .remove {
+    right: calc(50vw - 20px);
   }
 
 }
