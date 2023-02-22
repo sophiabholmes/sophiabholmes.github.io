@@ -223,18 +223,26 @@ body {
   padding-left: calc(50vw - 320px);
   padding-top: 100px;
   position: fixed;
-  background: #425168;
+  /* background: #425168; */
   z-index: 100;
   width: 100vw;
   height: 100vh;
 }
 
+.pop_up_vid p{
+  max-width: 640px;
+  background: #425168;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 .remove {
   position: fixed;
-  right: 100px;
+  right: calc(50vw - 320px);
   top: 50px;
   width: 20px;
   height: 20px;
+  background: #425168;
 }
 
 .remove::after {

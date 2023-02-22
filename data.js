@@ -27,19 +27,19 @@ var musicVideos = [{
     positionLeft: 170,
     positionTop: 80,
     tilt: 10,
-    vid: '<iframe width="560" height="315" src="https://www.youtube.com/embed/d6cZFxFJl0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    vid: '<iframe src="https://player.vimeo.com/video/106550241?h=aac1436f0b" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/106550241">Frankie Cosmos-&quot;Art School&quot;</a> from <a href="https://vimeo.com/user12726649">Sophia Bennett Holmes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
   }, {
     title: "2",
     image: "2.png",
     positionLeft: 40,
     positionTop: 100,
     tilt: 0,
-    vid: '<iframe width="640" height="360" src="https://www.youtube.com/embed/6hDwbJurzP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    vid: '<iframe src="https://player.vimeo.com/video/782768010?h=b462e10771" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/782768010">Only in The - Crosslegged (Official Video)</a> from <a href="https://vimeo.com/user12726649">Sophia Bennett Holmes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
   }, {
     title: "3",
     image: "3.png",
     positionLeft: 100,
     positionTop: -50,
     tilt: -10,
-    vid: '<iframe width="640" height="360" src="https://www.youtube.com/embed/VCsSMTwKkv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    vid: '<iframe src="https://player.vimeo.com/video/767921143?h=63b95ebd34&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/767921143">Frankie Cosmos - Empty Head  (Official Video)</a> from <a href="https://vimeo.com/user12726649">Sophia Bennett Holmes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
   }];
