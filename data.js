@@ -18,7 +18,8 @@ var shortFilms = [{
     positionRight: 90,
     positionBottom: 200,
     tilt: 15,
-    vid: 'coming soon!'
+    vid: 'coming soon!',
+    comingSoon: true
   }];
 
 var musicVideos = [{

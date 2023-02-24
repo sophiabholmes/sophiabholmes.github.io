@@ -20,19 +20,35 @@ document.addEventListener('DOMContentLoaded', function() {
     //   console.log(currentItem);
     // }
     item.addEventListener('click', function(){
+      let wrapper = document.createElement('div');
+      wrapper.classList.add('wrapper');
+
+      wrapper.addEventListener('click', function(){
+      document.getElementsByClassName('pop_up_vid')[0].remove();
+      document.getElementsByClassName('wrapper')[0].remove();
+      });
+
+
       let popUpVid = document.createElement('div');
-      popUpVid.classList.add("pop_up_vid");
+      popUpVid.classList.add('pop_up_vid');
+      if(shortFilms[i].comingSoon) {
+        popUpVid.classList.add('coming-soon');
+      }
       popUpVid.innerHTML = shortFilms[i].vid;
+
+      // wrapper.appendChild(popUpVid);
 
       let remove  = document.createElement('div');
       remove.classList.add('remove');
       remove.addEventListener('click', function(){
       document.getElementsByClassName('pop_up_vid')[0].remove();
+      document.getElementsByClassName('wrapper')[0].remove();
       });
 
       popUpVid.appendChild(remove);
 
-      document.getElementById('main_container').appendChild(popUpVid);
+      document.body.appendChild(wrapper);
+      document.body.appendChild(popUpVid);
 
     });
 
