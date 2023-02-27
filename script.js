@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       popUpVid.appendChild(remove);
 
-      document.body.appendChild(wrapper);
-      document.body.appendChild(popUpVid);
+      document.getElementById('main_container').appendChild(wrapper);
+      document.getElementById('main_container').appendChild(popUpVid);
 
     });
 
@@ -71,6 +71,14 @@ document.addEventListener('DOMContentLoaded', function() {
      musicVideosContainer.appendChild(item);
 
      item.addEventListener('click', function(){
+       let wrapper = document.createElement('div');
+       wrapper.classList.add('wrapper');
+
+       wrapper.addEventListener('click', function(){
+       document.getElementsByClassName('pop_up_vid')[0].remove();
+       document.getElementsByClassName('wrapper')[0].remove();
+       });
+
        let popUpVid = document.createElement('div');
        popUpVid.classList.add("pop_up_vid");
        popUpVid.innerHTML = musicVideos[i].vid;
@@ -79,10 +87,12 @@ document.addEventListener('DOMContentLoaded', function() {
        remove.classList.add('remove');
        remove.addEventListener('click', function(){
        document.getElementsByClassName('pop_up_vid')[0].remove();
+       document.getElementsByClassName('wrapper')[0].remove();
        });
 
        popUpVid.appendChild(remove);
 
+       document.getElementById('main_container').appendChild(wrapper);
        document.getElementById('main_container').appendChild(popUpVid);
      });
    }
