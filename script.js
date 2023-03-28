@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     image.src = `images/short_films/${shortFilms[i].image}`;
     item.style.right = `${shortFilms[i].positionRight}px`;
     item.style.bottom = `${shortFilms[i].positionBottom}px`;
+    item.style.width = `${shortFilms[i].width}px`;
     item.style.transform = `rotate(${shortFilms[i].tilt}deg)`;
     item.appendChild(image);
     shortFilmsContainer.appendChild(item);
@@ -31,10 +32,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
       let popUpVid = document.createElement('div');
       popUpVid.classList.add('pop_up_vid');
-      if(shortFilms[i].comingSoon) {
-        popUpVid.classList.add('coming-soon');
+      if(shortFilms[i].text) {
+        popUpVid.innerHTML= shortFilms[i].vid + "testing"
+      } else {
+        popUpVid.innerHTML = shortFilms[i].vid;
       }
-      popUpVid.innerHTML = shortFilms[i].vid;
 
       // wrapper.appendChild(popUpVid);
 
@@ -45,7 +47,8 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementsByClassName('wrapper')[0].remove();
       });
 
-      popUpVid.appendChild(remove);
+      popUpVid.insertBefore(remove, popUpVid.firstChild);
+      // popUpVid.appendChild(remove);
 
       document.getElementById('main_container').appendChild(wrapper);
       document.getElementById('main_container').appendChild(popUpVid);
@@ -66,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
      image.src = `images/music_videos/${musicVideos[i].image}`;
      item.style.left = `${musicVideos[i].positionLeft}px`;
      item.style.top = `${musicVideos[i].positionTop}px`;
+     item.style.width = `${musicVideos[i].width}px`;
      item.style.transform = `rotate(${musicVideos[i].tilt}deg)`;
      item.appendChild(image);
      musicVideosContainer.appendChild(item);
@@ -81,8 +85,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
        let popUpVid = document.createElement('div');
        popUpVid.classList.add("pop_up_vid");
-       popUpVid.innerHTML = musicVideos[i].vid;
-
+       if(musicVideos[i].text) {
+         popUpVid.innerHTML= musicVideos[i].vid + "testing"
+       } else {
+         popUpVid.innerHTML = musicVideos[i].vid;
+       }
        let remove  = document.createElement('div');
        remove.classList.add('remove');
        remove.addEventListener('click', function(){
@@ -90,7 +97,8 @@ document.addEventListener('DOMContentLoaded', function() {
        document.getElementsByClassName('wrapper')[0].remove();
        });
 
-       popUpVid.appendChild(remove);
+       popUpVid.insertBefore(remove, popUpVid.firstChild);
+       // popUpVid.appendChild(remove);
 
        document.getElementById('main_container').appendChild(wrapper);
        document.getElementById('main_container').appendChild(popUpVid);
