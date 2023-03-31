@@ -48,7 +48,7 @@ var musicVideos = [{
   }, {
     title: "3",
     image: "3.png",
-    positionLeft: 150,
+    positionLeft: 50,
     positionTop: -50,
     tilt: -10,
     width: 120,
