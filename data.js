@@ -57,10 +57,10 @@ var musicVideos = [{
  }, {
     title: "3",
     image: "5.png",
-    positionLeft: 200,
+    positionLeft: 250,
     positionTop: -70,
-    tilt: 5,
-    width: 100,
+    tilt: 100,
+    width: 200,
     text: false,
     vid: '<iframe src="https://player.vimeo.com/video/767921143?h=63b95ebd34&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/767921143">Frankie Cosmos - Empty Head  (Official Video)</a> from <a href="https://vimeo.com/user12726649">Sophia Bennett Holmes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
  }];
