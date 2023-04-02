@@ -13,6 +13,10 @@ body {
   background: linear-gradient(#425168, #736e74);
 }
 
+html, body {
+	overflow-x: hidden;
+}
+
 path {
   fill: transparent;
   /* fill: red; */
@@ -377,6 +381,9 @@ body {
     text-align: center;
     margin-left: 20px;
     width: calc(100vw - 40px);
+    margin-top: 20px;
+    height: calc(100vh - 40px);
+    overflow-y: scroll;
   }
   .pop_up_vid p {
     width: 100%;
@@ -389,6 +396,7 @@ body {
   }
 
   .remove {
+    top: 40px;
     left: calc(50% - 10px);
   }
 
