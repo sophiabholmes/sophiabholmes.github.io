@@ -39,8 +39,8 @@ var musicVideos = [{
   }, {
     title: "2",
     image: "2.png",
-    positionLeft: 40,
-    positionTop: 100,
+    positionLeft: 30,
+    positionTop: 120,
     tilt: 0,
     width: 140,
     text: false,
@@ -48,8 +48,8 @@ var musicVideos = [{
   }, {
     title: "3",
     image: "3.png",
-    positionLeft: -20,
-    positionTop: -30,
+    positionLeft: -10,
+    positionTop: -20,
     tilt: -10,
     width: 120,
     text: false,
