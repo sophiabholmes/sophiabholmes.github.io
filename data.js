@@ -43,7 +43,7 @@ var musicVideos = [{
     positionTop: 90,
     tilt: 0,
     width: 140,
-    text: 'crosslegged - only in the",
+    text: 'crosslegged - only in the',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/782768010?h=b462e10771" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
   }, {
     title: "3",
