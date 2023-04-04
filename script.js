@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
       let popUpVid = document.createElement('div');
       popUpVid.classList.add('pop_up_vid');
       if(shortFilms[i].text) {
-        popUpVid.innerHTML= shortFilms[i].vid + "testing"
+        popUpVid.innerHTML= shortFilms[i].vid + `<p>${shortFilms[i].text}</p>`;
       } else {
         popUpVid.innerHTML = shortFilms[i].vid;
       }
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
        let popUpVid = document.createElement('div');
        popUpVid.classList.add("pop_up_vid");
        if(musicVideos[i].text) {
-         popUpVid.innerHTML= musicVideos[i].vid + "testing"
+         popUpVid.innerHTML= musicVideos[i].vid + `<p>${musicVideos[i].text}</p>`;
        } else {
          popUpVid.innerHTML = musicVideos[i].vid;
        }
