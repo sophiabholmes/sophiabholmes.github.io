@@ -62,8 +62,5 @@ var musicVideos = [{
     tilt: -15,
     width: 180,
     text: false,
-    vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/814695587?h=82be5f306d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+    vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/814695587?h=82be5f306d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
  }];
-
-
-
