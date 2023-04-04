@@ -14,7 +14,7 @@ var shortFilms = [{
     positionBottom: 30,
     tilt: 5,
     width: 140,
-    text: false,
+    text: 'shayna',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/814000617?h=5304ee3043" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
   }, {
     title: "3",
