@@ -53,7 +53,7 @@ var musicVideos = [{
     tilt: -10,
     width: 120,
     text: 'frankie cosmos - empty head',
-    vid: '<<iframe title="vimeo-player" src="https://player.vimeo.com/video/767921143?h=63b95ebd34" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
+    vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/767921143?h=63b95ebd34" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
  }, {
     title: "3",
     image: "5.png",
@@ -61,6 +61,6 @@ var musicVideos = [{
     positionTop: -70,
     tilt: -15,
     width: 180,
-    text: 'crosslegged - automatic - directed by sophia bennett holmes and cade featherstone',
+    text: 'crosslegged - automatic * co-directed with cade featherstone',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/814695587?h=82be5f306d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
  }];
