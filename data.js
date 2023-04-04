@@ -34,8 +34,8 @@ var musicVideos = [{
     positionTop: 80,
     tilt: 10,
     width: 140,
-    text: false,
-    vid: '<iframe src="https://player.vimeo.com/video/106550241?h=aac1436f0b" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/106550241">Frankie Cosmos-&quot;Art School&quot;</a> from <a href="https://vimeo.com/user12726649">Sophia Bennett Holmes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
+    text: 'frankie cosmos - art school',
+    vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/106550241?h=aac1436f0b" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
   }, {
     title: "2",
     image: "2.png",
@@ -43,8 +43,8 @@ var musicVideos = [{
     positionTop: 90,
     tilt: 0,
     width: 140,
-    text: false,
-    vid: '<iframe src="https://player.vimeo.com/video/782768010?h=b462e10771" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/782768010">Only in The - Crosslegged (Official Video)</a> from <a href="https://vimeo.com/user12726649">Sophia Bennett Holmes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
+    text: 'crosslegged - only in the",
+    vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/782768010?h=b462e10771" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
   }, {
     title: "3",
     image: "3.png",
@@ -52,8 +52,8 @@ var musicVideos = [{
     positionTop: -35,
     tilt: -10,
     width: 120,
-    text: false,
-    vid: '<iframe src="https://player.vimeo.com/video/767921143?h=63b95ebd34&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/767921143">Frankie Cosmos - Empty Head  (Official Video)</a> from <a href="https://vimeo.com/user12726649">Sophia Bennett Holmes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
+    text: 'frankie cosmos - empty head',
+    vid: '<<iframe title="vimeo-player" src="https://player.vimeo.com/video/767921143?h=63b95ebd34" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
  }, {
     title: "3",
     image: "5.png",
@@ -61,6 +61,6 @@ var musicVideos = [{
     positionTop: -70,
     tilt: -15,
     width: 180,
-    text: false,
+    text: 'crosslegged - automatic * directed by sophia bennett holmes and cade featherstone',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/814695587?h=82be5f306d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
  }];
