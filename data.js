@@ -5,8 +5,8 @@ var shortFilms = [{
     positionBottom: 120,
     tilt: -20,
     width: 100,
-    text: false,
-    vid: '<iframe src="https://player.vimeo.com/video/534686787?h=b58fefcea1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/534686787">Big Crush</a> from <a href="https://vimeo.com/user12726649">Sophia Bennett Holmes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
+    text: big crush,
+    vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/534686787?h=b58fefcea1" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
   }, {
     title: "2",
     image: "shayna.png",
