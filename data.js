@@ -5,7 +5,7 @@ var shortFilms = [{
     positionBottom: 120,
     tilt: -20,
     width: 100,
-    text: big crush,
+    text: 'big crush',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/534686787?h=b58fefcea1" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
   }, {
     title: "2",
