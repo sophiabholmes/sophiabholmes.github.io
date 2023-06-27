@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let image = document.createElement('img');
     // console.log(shortFilms[i].image);
     image.src = `images/short_films/${shortFilms[i].image}`;
+    image.alt = `${shortFilms[i].image}`
     item.style.right = `${shortFilms[i].positionRight}px`;
     item.style.bottom = `${shortFilms[i].positionBottom}px`;
     item.style.width = `${shortFilms[i].width}px`;
@@ -67,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
      let image = document.createElement('img');
      // console.log(shortFilms[i].image);
      image.src = `images/music_videos/${musicVideos[i].image}`;
+     image.alt= `${musicVideos[i].image}`;
      item.style.left = `${musicVideos[i].positionLeft}px`;
      item.style.top = `${musicVideos[i].positionTop}px`;
      item.style.width = `${musicVideos[i].width}px`;
