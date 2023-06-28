@@ -150,61 +150,14 @@ body {
 
 /* wiggle */
 
-/* .item img:hover {
-  animation: in 2s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-} */
-
-/* .item img {
-  animation: out 2s cubic-bezier(.36,.07,.19,.97) both;
-} */
-
 .item img {
     transform: rotate(0deg);
     transition: all .3s;
 }
 
 .item img:hover {
-  transform: rotate(20deg);
+  transform: rotate(10deg);
 }
-
-/* .item img:hover {
-    -webkit-animation: in 1s;
-}
-
-.item img {
-    -webkit-animation: out 1s;
-}
-
-@-webkit-keyframes in {
-    from   { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(20deg);}
-}
-
-@-webkit-keyframes out {
-    0%   { -webkit-transform: rotate(20deg); }
-    100% { -webkit-transform: rotate(0deg); }
-} */
-
-/* @keyframes shake {
-  20%, 100% {
-    transform: translate3d(-10px, 0, 0);
-  }
-}
-
-  @keyframes in {
-    from: transform: translate3d(0, 0, 0);
-    to: transform: translate3d(-10px, 0, 0);
-}
-
-@keyframe out {
-    from: transform: translate3d(-10px, 0, 0);
-    to: transform: translate3d(0, 0, 0);
-} */
-
-
 
 /* end wiggle */
 
