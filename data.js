@@ -59,7 +59,7 @@ var musicVideos = [{
     image: "5.png",
     positionLeft: 190,
     positionTop: -70,
-    tilt: 20,
+    tilt: 30,
     width: 180,
     text: 'crosslegged - automatic (co-directed with cade featherstone) ~ 2023',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/814695587?h=82be5f306d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
@@ -67,7 +67,7 @@ var musicVideos = [{
     title: "audio",
     image: "6.png",
     positionLeft: 90,
-    positionTop: -120,
+    positionTop: -130,
     tilt: -15,
     width: 180,
     text: 'easyfun - audio (co-directed with cade featherstone) ~ 2023',
