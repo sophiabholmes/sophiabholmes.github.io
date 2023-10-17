@@ -63,4 +63,14 @@ var musicVideos = [{
     width: 180,
     text: 'crosslegged - automatic (co-directed with cade featherstone) ~ 2023',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/814695587?h=82be5f306d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
+ }]
+}, {
+    title: "audio",
+    image: "6.png",
+    positionLeft: 170,
+    positionTop: -70,
+    tilt: -15,
+    width: 180,
+    text: 'easyfun - audio (co-directed with cade featherstone) ~ 2023',
+    vid: '<iframe width="560" height="315" src="https://www.youtube.com/embed/riZ5oWXZmRo?si=QUdywDspN5oy5lgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
  }];
