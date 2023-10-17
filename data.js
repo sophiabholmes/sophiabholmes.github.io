@@ -22,7 +22,7 @@ var shortFilms = [{
     positionRight: 90,
     positionBottom: 200,
     tilt: 15,
-    width: 140,
+    width: 120,
     text: false,
     vid: 'coming soon!'
   }];
