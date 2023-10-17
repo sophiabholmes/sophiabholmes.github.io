@@ -57,7 +57,7 @@ var musicVideos = [{
  }, {
     title: "3",
     image: "5.png",
-    positionLeft: 190,
+    positionLeft: 180,
     positionTop: -70,
     tilt: -15,
     width: 180,
@@ -66,8 +66,8 @@ var musicVideos = [{
  }, {
     title: "audio",
     image: "6.png",
-    positionLeft: 120,
-    positionTop: -90,
+    positionLeft: 115,
+    positionTop: -100,
     tilt: -15,
     width: 180,
     text: 'easyfun - audio (co-directed with cade featherstone) ~ 2023',
