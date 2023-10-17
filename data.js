@@ -30,7 +30,7 @@ var shortFilms = [{
 var musicVideos = [{
     title: "1",
     image: "1.png",
-    positionLeft: 170,
+    positionLeft: 180,
     positionTop: 80,
     tilt: 10,
     width: 140,
@@ -58,7 +58,7 @@ var musicVideos = [{
     title: "3",
     image: "5.png",
     positionLeft: 170,
-    positionTop: -70,
+    positionTop: -60,
     tilt: -15,
     width: 180,
     text: 'crosslegged - automatic (co-directed with cade featherstone) ~ 2023',
