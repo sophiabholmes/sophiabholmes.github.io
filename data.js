@@ -57,16 +57,16 @@ var musicVideos = [{
  }, {
     title: "3",
     image: "5.png",
-    positionLeft: 180,
+    positionLeft: 190,
     positionTop: -70,
-    tilt: -20,
+    tilt: -5,
     width: 180,
     text: 'crosslegged - automatic (co-directed with cade featherstone) ~ 2023',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/814695587?h=82be5f306d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
  }, {
     title: "audio",
     image: "6.png",
-    positionLeft: 100,
+    positionLeft: 90,
     positionTop: -100,
     tilt: -15,
     width: 180,
