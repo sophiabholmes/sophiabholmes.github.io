@@ -71,5 +71,5 @@ var musicVideos = [{
     tilt: -15,
     width: 180,
     text: 'easyfun - audio (co-directed with cade featherstone) ~ 2023',
-    vid: '<iframe width="560" height="315" src="https://www.youtube.com/embed/riZ5oWXZmRo?si=IYarkWSDqD6_esR6&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    vid: '<iframe width="560" height="315" src="https://www.youtube.com/embed/riZ5oWXZmRo?si=CmoAs29hhPze5Mo-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
  }];
