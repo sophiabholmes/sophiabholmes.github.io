@@ -66,7 +66,7 @@ var musicVideos = [{
  }, {
     title: "audio",
     image: "6.png",
-    positionLeft: 80,
+    positionLeft: 70,
     positionTop: -130,
     tilt: -15,
     width: 180,
