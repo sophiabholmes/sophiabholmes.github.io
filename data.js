@@ -61,7 +61,7 @@ var musicVideos = [{
     positionTop: -70,
     tilt: 50,
     width: 180,
-    text: 'crosslegged - automatic (co-directed with cade featherstone) ~ 2023',
+    text: 'crosslegged - automatic (directed with cade featherstone) ~ 2023',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/814695587?h=82be5f306d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
  }, {
     title: "audio",
@@ -70,6 +70,6 @@ var musicVideos = [{
     positionTop: -145,
     tilt: -15,
     width: 180,
-    text: 'easyfun - audio (co-directed with cade featherstone) ~ 2023',
+    text: 'easyfun - audio (directed with cade featherstone) ~ 2023',
     vid: '<iframe width="560" height="315" src="https://www.youtube.com/embed/riZ5oWXZmRo?si=CmoAs29hhPze5Mo-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
  }];
