@@ -1,8 +1,8 @@
 var shortFilms = [{
     title: "1",
     image: "big_crush.png",
-    positionRight: 280,
-    positionBottom: 120,
+    positionRight: 270,
+    positionBottom: 110,
     tilt: -20,
     width: 100,
     text: 'big crush ~ 2021 ~ director',
@@ -30,8 +30,8 @@ var shortFilms = [{
     image: "the wrong idea.png",
     positionRight: 170,
     positionBottom: 230,
-    tilt: 10,
-    width: 180,
+    tilt: 0,
+    width: 170,
     text: false,
     vid: 'coming soon!'
   }];
