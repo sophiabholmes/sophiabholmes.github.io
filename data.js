@@ -28,7 +28,7 @@ var shortFilms = [{
   }, {
      title: "4",
     image: "the wrong idea.png",
-    positionRight: 175,
+    positionRight: 165,
     positionBottom: 230,
     tilt: 0,
     width: 170,
