@@ -24,7 +24,7 @@ var shortFilms = [{
     tilt: 15,
     width: 120,
     text: 'synchronicity story ~ 2021 ~ writer/director',
-    vid: '<iframe title="vimeo-player" src="https://vimeo.com/706972127?share=copy&fl=sv&fe=ci" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
+    vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/706972127?h=9723bf317d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
   }, {
      title: "4",
     image: "the wrong idea.png",
