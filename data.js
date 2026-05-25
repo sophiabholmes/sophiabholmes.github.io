@@ -22,7 +22,7 @@ var shortFilms = [{
     positionRight: 90,
     positionBottom: 200,
     tilt: 15,
-    width: 120,
+    width: 100,
     text: 'synchronicity story ~ 2021 ~ writer/director',
     vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/706972127?h=9723bf317d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
   }, {
@@ -37,12 +37,11 @@ var shortFilms = [{
   }, {
     title: "5",
     image: "illusions.png",
-    positionRight: 230,
+    positionRight: 200,
     positionBottom: 90,
     tilt: 15,
     width: 110,
-    text: 'coming soon! illusions ~ 2026 ~ collective feature film, co writer/director',
-    vid: false
+    text: 'coming soon! illusions ~ collective feature film, co writer/director'
   }];
 
 var musicVideos = [{
