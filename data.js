@@ -2,7 +2,7 @@ var shortFilms = [{
     title: "1",
     image: "big_crush.png",
     positionRight: 200,
-    positionBottom: 30,
+    positionBottom: 25,
     tilt: -10,
     width: 100,
     text: 'big crush ~ 2021 ~ writer/director',
@@ -37,9 +37,9 @@ var shortFilms = [{
   }, {
     title: "5",
     image: "illusions.png",
-    positionRight: 290,
+    positionRight: 295,
     positionBottom: 110,
-    tilt: -10,
+    tilt: 0,
     width: 110,
     vid: 'illusions ~ collective feature film ~ co writer/director ~ coming soon'
   }];
