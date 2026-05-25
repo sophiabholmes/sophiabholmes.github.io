@@ -2,7 +2,7 @@ var shortFilms = [{
     title: "1",
     image: "big_crush.png",
     positionRight: 240,
-    positionBottom: 80,
+    positionBottom: 70,
     tilt: -20,
     width: 100,
     text: 'big crush ~ 2021 ~ writer/director',
