@@ -28,17 +28,17 @@ var shortFilms = [{
   }, {
      title: "4",
     image: "the wrong idea.png",
-    positionRight: 188,
-    positionBottom: 230,
+    positionRight: 295,
+    positionBottom: 110,
     tilt: 0,
     width: 170,
     text: false, 
-    vid: 'coming soon!'
+    vid: 'the wrong idea ~ writer/director ~ coming soon'
   }, {
     title: "5",
     image: "illusions.png",
-    positionRight: 295,
-    positionBottom: 110,
+    positionRight: 188,
+    positionBottom: 230,
     tilt: 0,
     width: 110,
     vid: 'illusions ~ collective feature film ~ co writer/director ~ coming soon'
