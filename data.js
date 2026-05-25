@@ -2,7 +2,7 @@ var shortFilms = [{
     title: "1",
     image: "big_crush.png",
     positionRight: 200,
-    positionBottom: 40,
+    positionBottom: 30,
     tilt: -20,
     width: 100,
     text: 'big crush ~ 2021 ~ writer/director',
@@ -37,12 +37,12 @@ var shortFilms = [{
   }, {
     title: "5",
     image: "illusions.png",
-    positionRight: 240,
-    positionBottom: 80,
+    positionRight: 230,
+    positionBottom: 90,
     tilt: 15,
-    width: 120,
-    text: 'illusions ~ 2026 ~ collective feature film, co writer/director',
-    vid: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/706972127?h=9723bf317d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>'
+    width: 110,
+    text: 'coming soon! illusions ~ 2026 ~ collective feature film, co writer/director',
+    vid: false
   }];
 
 var musicVideos = [{
