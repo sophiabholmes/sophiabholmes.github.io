@@ -32,8 +32,9 @@ var shortFilms = [{
     positionBottom: 230,
     tilt: 0,
     width: 170,
-    text: 'coming soon'
-    vid: "wrong-idea-still.png" style="max-width:100%;"'
+    text: false, 
+    vid: 'coming soon!'
+    
   }];
 
 var musicVideos = [{
