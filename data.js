@@ -32,8 +32,8 @@ var shortFilms = [{
     positionBottom: 230,
     tilt: 0,
     width: 170,
-    text: false,
-    vid: 'coming soon!'
+    text: 'When a bird escapes from the Central Park Zoo, everyone in the city becomes obsessed with spotting him in the sky. Local voyeur, Frank, believes that capturing a photo of the bird might help him win the affection of his unrequited love.'
+    vid: '<img src="wrong-idea-still.png" style="max-width:100%; height:auto;">'
   }];
 
 var musicVideos = [{
