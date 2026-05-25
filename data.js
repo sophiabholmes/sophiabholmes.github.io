@@ -38,10 +38,10 @@ var shortFilms = [{
     title: "5",
     image: "illusions.png",
     positionRight: 280,
-    positionBottom: 90,
-    tilt: 15,
+    positionBottom: 110,
+    tilt: -10,
     width: 110,
-    text: 'coming soon! illusions ~ collective feature film, co writer/director'
+    vid: 'coming soon! illusions ~ collective feature film, co writer/director'
   }];
 
 var musicVideos = [{
